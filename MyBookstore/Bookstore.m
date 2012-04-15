@@ -49,6 +49,7 @@
         newBook.description = @"Great stories to tell!";
         newBook.isbn = @"ISBN #: 0-451-62785-7";
         newBook.price = @"Price: $7.99";
+        newBook.year = @"Created: 1969";
         [self.theBookStore addObject:newBook];
         
         newBook = [[Book alloc] init];
@@ -57,6 +58,7 @@
         newBook.description = @"A fun story";
         newBook.isbn = @"ISBN #: 978-0439023481";
         newBook.price = @"Price: $17.99";
+        newBook.year = @"Created: 2008";
         [self.theBookStore addObject:newBook];
         
         newBook = [[Book alloc] init];
@@ -65,6 +67,7 @@
         newBook.description = @"A biography of Steve Jobs.";
         newBook.isbn = @"ISBN #: 978-1451648539";
         newBook.price = @"Price: $35.00";
+        newBook.year = @"Created: 2011";
         [self.theBookStore addObject:newBook];
 }
     
