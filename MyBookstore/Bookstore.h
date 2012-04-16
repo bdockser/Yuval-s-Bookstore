@@ -15,5 +15,7 @@
 
 -(NSUInteger)count;
 -(Book *)bookatIndex:(NSUInteger)index;
+-(void)loadbooks;
+- (void)sortBooks:(NSString *) bookKey;
 
 @end

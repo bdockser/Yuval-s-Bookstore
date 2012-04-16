@@ -28,6 +28,8 @@
     if (self) {
         self.title = NSLocalizedString(@"Yuval's Bookstore", @"Yuval's Bookstore");
         self.myBookstore = [[Bookstore alloc] init];
+        self.myBookstore.loadbooks;
+       [self.myBookstore sortBooks:@"title"];
     }
     return self;
 }
